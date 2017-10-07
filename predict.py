@@ -46,6 +46,7 @@ X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_
 ##with open('linearregression.pickle', 'wb') as f:
 ##    pickle.dump(clf, f)
 
+#load the classifier
 pickle_in = open('linearregression.pickle', 'rb')
 clf = pickle.load(pickle_in) 
 
