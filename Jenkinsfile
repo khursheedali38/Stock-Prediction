@@ -8,6 +8,9 @@ pipeline {
             steps {
                 sh 'python --version'
             }
+            steps {
+                echo "Print something"
+            }
         }
     }
 }
